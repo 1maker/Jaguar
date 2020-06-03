@@ -5,5 +5,9 @@
   "main": "server.js",
   "author": {
     "name": ""
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0"
   }
 }

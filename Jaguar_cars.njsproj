@@ -11,7 +11,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>62d30197-80e8-4fa4-a81d-12bb56a27e7a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,9 +29,14 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="connection_to_db.txt" />
+    <Content Include="connection_to_db.js" />
+    <Content Include="demonstration.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="index.html" />
-    <Content Include="server.js" />
+    <Content Include="timer.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="style.css" />
