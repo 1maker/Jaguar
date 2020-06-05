@@ -7,6 +7,9 @@
     "name": ""
   },
   "dependencies": {
+    "bootstrap": "^4.5.0",
+    "express": "^4.17.1",
+    "global-modules": "^2.0.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.1.0"
   }
