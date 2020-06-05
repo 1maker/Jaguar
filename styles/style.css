@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
+
+body {
+	
+    background-color: #f8f9fa;
+}
+
+nav.navbar.navbar-expand-lg {
+
+    height: 72px;
+    background-color: white;
+    padding-left: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-variant: small-caps;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.navbar-brand {
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 72px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand > img {
+
+    width: 80px;
+}
+
+#cars {
+
+    margin-right: 20px;
+}
+
+[data-ride="carousel"] {
+
+    min-width: 576px;
+}
+
+.nav-item:hover {
+	
+	text-decoration: underline;
+}
+
+footer {
+	
+	display: flex;
+	margin-top: 15px;
+}
+
+.footer-items {
+	
+	flex-grow: 1;
+	padding: 0 15px;
+}
+
+
+[data-ride="carousel"] .carousel-inner {
+
+    height: inherit;
+}
+
+.footer-header {
+	
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.badge {
+	
+	background-color: #9e1b32;
+	color: white;
+	margin-left: 5px;
+}
+
+/*[data-ride="carousel"] .carousel-inner img {
+
+    height: 600px;
+}*/
+

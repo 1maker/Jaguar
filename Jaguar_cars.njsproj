@@ -29,17 +29,22 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="connection_to_db.js" />
-    <Content Include="demonstration.js">
-      <SubType>Code</SubType>
-    </Content>
+    <Content Include="images\Jaguar_XE.jpg" />
+    <Content Include="images\logo_jaguar.webp" />
     <Content Include="index.html" />
-    <Content Include="timer.js">
-      <SubType>Code</SubType>
-    </Content>
+    <Content Include="scripts\closure.js" />
+    <Content Include="scripts\connection_to_db.js" />
+    <Content Include="scripts\demonstration.js" />
+    <Content Include="scripts\test.js" />
+    <Content Include="scripts\timer.js" />
+    <Content Include="styles\style.css" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+    <Folder Include="scripts\" />
+    <Folder Include="styles\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
